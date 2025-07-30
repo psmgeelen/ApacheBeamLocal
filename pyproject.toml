@@ -1,0 +1,19 @@
+[project]
+name = "apachebeamtest"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = "~=3.12.0"
+dependencies = [
+    "apache-beam[gcp]==2.60.0",
+    "scipy>=1.16.1",
+]
+
+[dependency-groups]
+dev = [
+    "black>=25.1.0",
+    "ruff>=0.12.5",
+]
+interactive = [
+    "apache-beam[interactive]>=2.60.0",
+    "notebook>=7.4.4",
+]
