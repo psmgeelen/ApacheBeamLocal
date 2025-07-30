@@ -1,8 +1,32 @@
-I'll analyze the repository and create a comprehensive README.md for the Apache Beam local development project.
-
 # Apache Beam Local Development Example
 
 This repository demonstrates how to work with Apache Beam locally, showcasing a simple data processing pipeline with sensor data statistics. It includes Docker containerization for easy deployment and demonstrates best practices for setting up a Beam development environment.
+
+<!-- TOC -->
+* [Apache Beam Local Development Example](#apache-beam-local-development-example)
+  * [Overview](#overview)
+  * [Repository Structure](#repository-structure)
+  * [The Pipeline](#the-pipeline)
+  * [Dependencies](#dependencies)
+    * [Development Dependencies](#development-dependencies)
+    * [Interactive Dependencies](#interactive-dependencies)
+  * [Package Management](#package-management)
+  * [Running Locally](#running-locally)
+    * [Prerequisites](#prerequisites)
+    * [Setup](#setup)
+  * [Docker Deployment](#docker-deployment)
+  * [Example Output](#example-output)
+  * [Key Features Demonstrated](#key-features-demonstrated)
+    * [Apache Beam Concepts](#apache-beam-concepts)
+    * [Integration with SciPy](#integration-with-scipy)
+    * [Dependency Management](#dependency-management)
+    * [Containerization](#containerization)
+  * [Advanced Usage](#advanced-usage)
+    * [Interactive Mode](#interactive-mode)
+    * [Development Environment](#development-environment)
+  * [Sources](#sources)
+  * [License](#license)
+<!-- TOC -->
 
 ## Overview
 
@@ -155,6 +179,9 @@ For local development with code formatting and linting:
 uv sync --group dev
 ```
 
+## Sources
+* [How to install UV](https://docs.astral.sh/uv/getting-started/installation/#installing-uv)
+* [Getting started with Apache Beam](https://beam.apache.org/get-started/)
 
 ## License
 
